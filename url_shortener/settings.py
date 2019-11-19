@@ -1,0 +1,9 @@
+import os
+
+SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+WHOOSH_BASE = os.environ.get('WHOOSH_BASE')
+
+ADMIN_USERNAME = os.environ.get('ADMIN_USERNAME')
+ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD')
